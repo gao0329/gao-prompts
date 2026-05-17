@@ -112,7 +112,7 @@ extracted/
 
 ## License
 
-[MIT](LICENSE) © 2026 Gao Xu
+[MIT](LICENSE) © 2026 Gao
 
 ---
 
