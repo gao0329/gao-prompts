@@ -19,7 +19,7 @@
 |---|---|---|---|---|
 | [claude-session-to-subagent](prompts/claude-session-to-subagent.md) | 从你的 Claude Code 历史会话中反推"方法论 DNA",生成一个"懂你"的定制化 subagent | 至少 10 个清洗过的高价值需求/设计讨论 session | 一份 300-500 行的 subagent 系统提示文件 | 稳定 |
 
-> 更多提示词陆续加入。欢迎通过 [Issue](../../issues) 提出你想看到的主题,或参与 [贡献](CONTRIBUTING.md)。
+> 更多提示词陆续加入。欢迎通过 [Issue](../../issues) 提出你想看到的主题。
 
 ---
 
@@ -110,15 +110,6 @@ extracted/
 
 ---
 
-## 贡献
-
-欢迎提交新的提示词、修订或使用反馈。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-简要规则:
-- 新提示词放 `prompts/` 子目录,使用英文 kebab-case 命名
-- 在本 README 索引表中追加一行
-- 命名需清晰表达"输入 → 输出"语义
-
 ## License
 
 [MIT](LICENSE) © 2026 Gao Xu
@@ -132,5 +123,3 @@ extracted/
 The flagship prompt — [`claude-session-to-subagent`](prompts/claude-session-to-subagent.md) — turns your **historical Claude Code conversations into a personalized subagent** that "already knows how you work." It distills your methodology DNA via a 6-round evidence-driven analysis (opening patterns, follow-up triggers, convergence signals, patch-style directives, failure modes, and implicit standards), then synthesizes a 300–500-line system prompt ready to drop into any subagent runtime.
 
 **Requirements**: at least 10 cleaned session transcripts in `./extracted/` with numbered messages. Session-extraction scripts are intentionally **not included** — formats vary across tool versions and the data is privacy-sensitive.
-
-Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
