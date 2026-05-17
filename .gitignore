@@ -1,0 +1,21 @@
+# 用户私人会话历史(隐私敏感,严禁提交)
+extracted/
+
+# 各轮提炼的本地产出(可能含个人化推导和敏感分析)
+all-rounds.md
+round*.md
+*.local.md
+
+# 生成的 subagent 文件(每个用户结果不同,不应提交)
+subagent.md
+subagent-*.md
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
